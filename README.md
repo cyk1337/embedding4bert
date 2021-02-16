@@ -1,4 +1,13 @@
 # BERT-Word-Embeddings-Pytorch
+## Environment
+Install the required packages.
+```bash
+$ conda env create -f requirements.yaml
+
+$ conda activate bert
+```
+
+## Run
 Extract word embeddings of pretrained BERT models.
 - Sum the representations of the last four layers. 
 - Take the mean of the representation of subword pieces as the word representations.
