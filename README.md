@@ -14,12 +14,12 @@ Extract word embeddings of pretrained BERT models.
 
 1. Extract BERT word embeddings.
 ```bash
-sh run.py bert
+sh run.sh bert
 ```
 
 2. Extract XLNet word embeddings.
 ```bash
-sh run.py xlnet
+sh run.sh xlnet
 ```
 
 ## References
