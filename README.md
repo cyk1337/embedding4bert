@@ -34,7 +34,8 @@ The `extract_word_embeddings` function of `Embedding4BERT` class has following a
 ```python
 from embedding4bert import Embedding4BERT
 emb4bert = Embedding4BERT("bert-base-cased") # bert-base-uncased
-tokens, embeddings = emb4bert.extract_word_embeddings('This is a python library for extracting word representations from BERT.', mode="sum", layers=[-1,-2,-3,-4]) # Take the sum of last four layers
+text = 'This is a python library for extracting word representations from BERT.'
+tokens, embeddings = emb4bert.extract_word_embeddings(text, mode="sum", layers=[-1,-2,-3,-4]) # Take the sum of last four layers
 print(tokens)
 print(embeddings.shape)
 ```
@@ -50,7 +51,8 @@ Expected output:
 ```python
 from embedding4bert import Embedding4BERT
 emb4bert = Embedding4BERT("xlnet-base-cased")
-tokens, embeddings = emb4bert.extract_word_embeddings('This is a python library for extracting word representations from XLNet.', mode="mean", layers=[-1,-2,-3,]) # Take the mean embeddings of last three layers
+text = 'This is a python library for extracting word representations from BERT.'
+tokens, embeddings = emb4bert.extract_word_embeddings(text, mode="mean", layers=[-1,-2,-3,]) # Take the mean embeddings of last three layers
 print(tokens)
 print(embeddings.shape)
 ```
