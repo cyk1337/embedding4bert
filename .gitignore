@@ -1,0 +1,6 @@
+.vscode/
+*.pyc
+bert-base-cased/
+bert-base-uncased/
+buildi/
+embedding4bert.egg-info/
