@@ -2,9 +2,9 @@
 
 ![Stable version](https://img.shields.io/pypi/v/embedding4bert)
 ![Python3](https://img.shields.io/pypi/pyversions/embedding4bert)![wheel:embedding4bert](https://img.shields.io/pypi/wheel/embedding4bert)
-![Download](https://img.shields.io/pypi/dm/embedding4bert)
 ![MIT License](https://img.shields.io/pypi/l/embedding4bert)
 
+<!--![Download](https://img.shields.io/pypi/dm/embedding4bert)-->
 
 Table of Contents
 =================
