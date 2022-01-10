@@ -15,7 +15,7 @@ Table of Contents
 - [Citation](https://github.com/cyk1337/embedding4bert/#citation)
 - [References](https://github.com/cyk1337/embedding4bert/#references)
 
-This is a Python library of extracting word embeddings from pre-trained language models. 
+This is a python library for extracting word embeddings from pre-trained language models. 
 
 ## User Guide
 ### Installation
@@ -27,8 +27,8 @@ pip install --upgrade embedding4bert
 
 Extract word embeddings of pretrained language models, such as BERT or XLNet.
 The `extract_word_embeddings` function of `Embedding4BERT` class has following arguments:
-- `mode`: str. `"sum"` or`"mean"`. Take the sum or average representations of the specficied layers. 
-- `layers`: List[int]. Take the word representation of specifed layers from the given list, e.g., [-1,-2,-3] indicates taking the last three layers.
+- `mode`: `str`. `"sum"` (default) or`"mean"`. Take the sum or average representations of the specficied layers. 
+- `layers`: `List[int]`. default: `[-1,-2,-3,-4]`, indicating take the last four layers. Take the word representation of specifed layers from the given list.
 
 1. Extract BERT word embeddings.
 ```python
