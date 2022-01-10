@@ -1,0 +1,10 @@
+README.md
+setup.py
+embedding4bert/__init__.py
+embedding4bert/embedding4bert.py
+embedding4bert/test_xlnet_embedding.py
+embedding4bert.egg-info/PKG-INFO
+embedding4bert.egg-info/SOURCES.txt
+embedding4bert.egg-info/dependency_links.txt
+embedding4bert.egg-info/requires.txt
+embedding4bert.egg-info/top_level.txt
