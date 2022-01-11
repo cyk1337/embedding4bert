@@ -25,7 +25,7 @@ pip install --upgrade embedding4bert
 
 ### Usage
 
-Extract word embeddings of pretrained language models, such as BERT or XLNet.
+Extract word embeddings of pretrained language models, such as BERT or XLNet. The subword embeddings within a word are averaged to represent the whole word embedding.
 The `extract_word_embeddings` function of `Embedding4BERT` class has following arguments:
 - `mode`: `str`. `"sum"` (default) or`"mean"`. Take the sum or average representations of the specficied layers. 
 - `layers`: `List[int]`. default: `[-1,-2,-3,-4]`, indicating take the last four layers. Take the word representation of specifed layers from the given list.
